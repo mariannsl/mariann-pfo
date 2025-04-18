@@ -1,0 +1,1 @@
+export const Button = ({ children, onClick, variant = 'default' }) => (<button onClick={onClick} className='rounded-xl px-4 py-2 border'>{children}</button>);
